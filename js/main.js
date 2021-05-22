@@ -1,4 +1,4 @@
-    var form = document.getElementById("my-form");
+   var form = document.getElementById("my-form");
     
     async function handleSubmit(event) {
       event.preventDefault();
@@ -18,3 +18,4 @@
       });
     }
     form.addEventListener("submit", handleSubmit)
+    
